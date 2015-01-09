@@ -1,6 +1,96 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+.signature{
+	font-variant: small-caps;
+}
+
+section[epub|type~="dedication"]{
+	margin: auto;
+	width: 75%;
+}
+
+section[epub|type~="dedication"] header p{
+	font-variant: small-caps;
+	text-indent: 0;
+	margin: 1em;
+}
+
+*[epub|type~="z3998:letter"],
+*[epub|type~="z3998:poem"],
+*[epub|type~="z3998:song"],
+*[epub|type~="z3998:verse"]{
+	margin: 1em;
+}
+
+*[epub|type~="z3998:letter"] + p,
+*[epub|type~="z3998:poem"] + p,
+*[epub|type~="z3998:song"] + p,
+*[epub|type~="z3998:verse"] + p{
+	text-indent: 0;
+}
+
+*[epub|type~="z3998:poem"] p,
+*[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+*[epub|type~="z3998:poem"] p + p,
+*[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+*[epub|type~="z3998:poem"] p span,
+*[epub|type~="z3998:verse"] p span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+*[epub|type~="z3998:poem"] br,
+*[epub|type~="z3998:song"] br,
+*[epub|type~="z3998:verse"] br{
+	display: none;
+}
+
+*[epub|type~="z3998:poem"] span.i1,
+*[epub|type~="z3998:verse"] span.i1{
+	text-indent: 0;
+}
+
+*[epub|type~="z3998:poem"] span.i2,
+*[epub|type~="z3998:verse"] span.i2{
+	text-indent: 1em;
+}
+
+*[epub|type~="z3998:letter"] p:first-child{
+	text-indent: 0;
+}
+
+*[epub|type~="dedication"] footer,
+*[epub|type~="z3998:letter"] footer{
+	text-align: right;
+	margin: 1em 0;
+}
+
+p[epub|type~="bridgehead"]{
+	font-style: italic;
+	hyphens: none;
+	margin: 2em 0;
+	text-align: center;
+	text-indent: 0;
+}
+
+p[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
 /* helpful during drafting */
 *[epub|type~="z3998:roman"],
 *[lang]:not(html),

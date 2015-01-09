@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby</dc:identifier>
 		<dc:date>2014-05-25T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">2015-01-09T20:29:37Z</meta>
+		<meta property="dcterms:modified">2015-01-24T06:22:27Z</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
@@ -12,24 +12,31 @@
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="epub/text/unlicense.xhtml" rel="cc:license"/>
 		<link href="epub/onix.xml" rel="onix-record"/>
 		<dc:title id="title">Don Quixote</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="file-as" refines="#title">Quixote, Don</meta>
+		<dc:subject id="subject-1">Spain -- Social life and customs -- 16th century -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Knights and knighthood -- Spain -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Picaresque literature</dc:subject>
+		<dc:subject id="subject-4">Romances</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">http://www.gutenberg.org/ebooks/996</meta>
+		<meta property="meta-auth" refines="#subject-2">http://www.gutenberg.org/ebooks/996</meta>
+		<meta property="meta-auth" refines="#subject-3">http://www.gutenberg.org/ebooks/996</meta>
+		<meta property="meta-auth" refines="#subject-4">http://www.gutenberg.org/ebooks/996</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta property="se:long-description" refines="#description"><![CDATA[
+		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
-		]]></meta>
+		</meta>
+		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://www.gutenberg.org/ebooks/996</dc:source>
-		<meta property="se:word-count">0</meta>
+		<dc:source>https://archive.org/stream/ingeniousgentle03cerv</dc:source>
+		<meta property="se:word-count">423788</meta>
 		<meta property="se:url.wikipedia">https://en.wikipedia.org/wiki/Don_Quixote</meta>
 		<dc:creator id="author">Miguel de Cervantes Saavedra</dc:creator>
 		<meta property="file-as" refines="#author">Cervantes Saavedra, Miguel</meta>
@@ -41,9 +48,10 @@
 		<meta property="se:url.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/John_Ormsby_%28translator%29</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.wikipedia" refines="#artist">WIKILINK</meta>
+		<dc:contributor id="artist">Honoré Daumier</dc:contributor>
+		<meta property="file-as" refines="#artist">Daumier, Honoré</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Honoré Victorin Daumier</meta>
+		<meta property="se:url.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
@@ -63,20 +71,282 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
-		<item href="images/logo.png" id="logo.png" media-type="image/png"/>
+		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-1.xhtml" id="chapter-1-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-2.xhtml" id="chapter-1-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-3.xhtml" id="chapter-1-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-4.xhtml" id="chapter-1-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-5.xhtml" id="chapter-1-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-6.xhtml" id="chapter-1-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-7.xhtml" id="chapter-1-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-8.xhtml" id="chapter-1-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-9.xhtml" id="chapter-1-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-10.xhtml" id="chapter-1-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-11.xhtml" id="chapter-1-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-12.xhtml" id="chapter-1-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-13.xhtml" id="chapter-1-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-14.xhtml" id="chapter-1-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-15.xhtml" id="chapter-1-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-16.xhtml" id="chapter-1-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-17.xhtml" id="chapter-1-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-18.xhtml" id="chapter-1-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-19.xhtml" id="chapter-1-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-20.xhtml" id="chapter-1-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-21.xhtml" id="chapter-1-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-22.xhtml" id="chapter-1-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-23.xhtml" id="chapter-1-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-24.xhtml" id="chapter-1-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-25.xhtml" id="chapter-1-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-26.xhtml" id="chapter-1-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-27.xhtml" id="chapter-1-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-28.xhtml" id="chapter-1-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-29.xhtml" id="chapter-1-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-30.xhtml" id="chapter-1-30.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-31.xhtml" id="chapter-1-31.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-32.xhtml" id="chapter-1-32.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-33.xhtml" id="chapter-1-33.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-34.xhtml" id="chapter-1-34.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-35.xhtml" id="chapter-1-35.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-36.xhtml" id="chapter-1-36.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-37.xhtml" id="chapter-1-37.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-38.xhtml" id="chapter-1-38.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-39.xhtml" id="chapter-1-39.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-40.xhtml" id="chapter-1-40.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-41.xhtml" id="chapter-1-41.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-42.xhtml" id="chapter-1-42.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-43.xhtml" id="chapter-1-43.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-44.xhtml" id="chapter-1-44.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-45.xhtml" id="chapter-1-45.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-46.xhtml" id="chapter-1-46.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-47.xhtml" id="chapter-1-47.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-48.xhtml" id="chapter-1-48.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-49.xhtml" id="chapter-1-49.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-50.xhtml" id="chapter-1-50.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-51.xhtml" id="chapter-1-51.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1-52.xhtml" id="chapter-1-52.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-1.xhtml" id="chapter-2-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-2.xhtml" id="chapter-2-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-3.xhtml" id="chapter-2-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-4.xhtml" id="chapter-2-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-5.xhtml" id="chapter-2-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-6.xhtml" id="chapter-2-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-7.xhtml" id="chapter-2-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-8.xhtml" id="chapter-2-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-9.xhtml" id="chapter-2-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-10.xhtml" id="chapter-2-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-11.xhtml" id="chapter-2-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-12.xhtml" id="chapter-2-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-13.xhtml" id="chapter-2-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-14.xhtml" id="chapter-2-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-15.xhtml" id="chapter-2-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-16.xhtml" id="chapter-2-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-17.xhtml" id="chapter-2-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-18.xhtml" id="chapter-2-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-19.xhtml" id="chapter-2-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-20.xhtml" id="chapter-2-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-21.xhtml" id="chapter-2-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-22.xhtml" id="chapter-2-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-23.xhtml" id="chapter-2-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-24.xhtml" id="chapter-2-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-25.xhtml" id="chapter-2-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-26.xhtml" id="chapter-2-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-27.xhtml" id="chapter-2-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-28.xhtml" id="chapter-2-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-29.xhtml" id="chapter-2-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-30.xhtml" id="chapter-2-30.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-31.xhtml" id="chapter-2-31.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-32.xhtml" id="chapter-2-32.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-33.xhtml" id="chapter-2-33.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-34.xhtml" id="chapter-2-34.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-35.xhtml" id="chapter-2-35.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-36.xhtml" id="chapter-2-36.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-37.xhtml" id="chapter-2-37.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-38.xhtml" id="chapter-2-38.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-39.xhtml" id="chapter-2-39.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-40.xhtml" id="chapter-2-40.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-41.xhtml" id="chapter-2-41.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-42.xhtml" id="chapter-2-42.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-43.xhtml" id="chapter-2-43.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-44.xhtml" id="chapter-2-44.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-45.xhtml" id="chapter-2-45.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-46.xhtml" id="chapter-2-46.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-47.xhtml" id="chapter-2-47.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-48.xhtml" id="chapter-2-48.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-49.xhtml" id="chapter-2-49.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-50.xhtml" id="chapter-2-50.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-51.xhtml" id="chapter-2-51.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-52.xhtml" id="chapter-2-52.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-53.xhtml" id="chapter-2-53.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-54.xhtml" id="chapter-2-54.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-55.xhtml" id="chapter-2-55.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-56.xhtml" id="chapter-2-56.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-57.xhtml" id="chapter-2-57.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-58.xhtml" id="chapter-2-58.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-59.xhtml" id="chapter-2-59.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-60.xhtml" id="chapter-2-60.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-61.xhtml" id="chapter-2-61.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-62.xhtml" id="chapter-2-62.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-63.xhtml" id="chapter-2-63.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-64.xhtml" id="chapter-2-64.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-65.xhtml" id="chapter-2-65.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-66.xhtml" id="chapter-2-66.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-67.xhtml" id="chapter-2-67.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-68.xhtml" id="chapter-2-68.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-69.xhtml" id="chapter-2-69.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-70.xhtml" id="chapter-2-70.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-71.xhtml" id="chapter-2-71.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-72.xhtml" id="chapter-2-72.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-73.xhtml" id="chapter-2-73.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2-74.xhtml" id="chapter-2-74.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication-1.xhtml" id="dedication-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication-2.xhtml" id="dedication-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface-1.xhtml" id="preface-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface-2.xhtml" id="preface-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/translators-preface.xhtml" id="translators-preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/unlicense.xhtml" id="unlicense.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="introduction.xhtml"/>
+		<itemref idref="translators-preface.xhtml"/>
 		<itemref idref="halftitle.xhtml"/>
-		<itemref idref="chapter-1.xhtml"/>
+		<itemref idref="part-1.xhtml"/>
+		<itemref idref="dedication-1.xhtml"/>
+		<itemref idref="preface-1.xhtml"/>
+		<itemref idref="chapter-1-1.xhtml"/>
+		<itemref idref="chapter-1-2.xhtml"/>
+		<itemref idref="chapter-1-3.xhtml"/>
+		<itemref idref="chapter-1-4.xhtml"/>
+		<itemref idref="chapter-1-5.xhtml"/>
+		<itemref idref="chapter-1-6.xhtml"/>
+		<itemref idref="chapter-1-7.xhtml"/>
+		<itemref idref="chapter-1-8.xhtml"/>
+		<itemref idref="chapter-1-9.xhtml"/>
+		<itemref idref="chapter-1-10.xhtml"/>
+		<itemref idref="chapter-1-11.xhtml"/>
+		<itemref idref="chapter-1-12.xhtml"/>
+		<itemref idref="chapter-1-13.xhtml"/>
+		<itemref idref="chapter-1-14.xhtml"/>
+		<itemref idref="chapter-1-15.xhtml"/>
+		<itemref idref="chapter-1-16.xhtml"/>
+		<itemref idref="chapter-1-17.xhtml"/>
+		<itemref idref="chapter-1-18.xhtml"/>
+		<itemref idref="chapter-1-19.xhtml"/>
+		<itemref idref="chapter-1-20.xhtml"/>
+		<itemref idref="chapter-1-21.xhtml"/>
+		<itemref idref="chapter-1-22.xhtml"/>
+		<itemref idref="chapter-1-23.xhtml"/>
+		<itemref idref="chapter-1-24.xhtml"/>
+		<itemref idref="chapter-1-25.xhtml"/>
+		<itemref idref="chapter-1-26.xhtml"/>
+		<itemref idref="chapter-1-27.xhtml"/>
+		<itemref idref="chapter-1-28.xhtml"/>
+		<itemref idref="chapter-1-29.xhtml"/>
+		<itemref idref="chapter-1-30.xhtml"/>
+		<itemref idref="chapter-1-31.xhtml"/>
+		<itemref idref="chapter-1-32.xhtml"/>
+		<itemref idref="chapter-1-33.xhtml"/>
+		<itemref idref="chapter-1-34.xhtml"/>
+		<itemref idref="chapter-1-35.xhtml"/>
+		<itemref idref="chapter-1-36.xhtml"/>
+		<itemref idref="chapter-1-37.xhtml"/>
+		<itemref idref="chapter-1-38.xhtml"/>
+		<itemref idref="chapter-1-39.xhtml"/>
+		<itemref idref="chapter-1-40.xhtml"/>
+		<itemref idref="chapter-1-41.xhtml"/>
+		<itemref idref="chapter-1-42.xhtml"/>
+		<itemref idref="chapter-1-43.xhtml"/>
+		<itemref idref="chapter-1-44.xhtml"/>
+		<itemref idref="chapter-1-45.xhtml"/>
+		<itemref idref="chapter-1-46.xhtml"/>
+		<itemref idref="chapter-1-47.xhtml"/>
+		<itemref idref="chapter-1-48.xhtml"/>
+		<itemref idref="chapter-1-49.xhtml"/>
+		<itemref idref="chapter-1-50.xhtml"/>
+		<itemref idref="chapter-1-51.xhtml"/>
+		<itemref idref="chapter-1-52.xhtml"/>
+		<itemref idref="part-2.xhtml"/>
+		<itemref idref="dedication-2.xhtml"/>
+		<itemref idref="preface-2.xhtml"/>
+		<itemref idref="chapter-2-1.xhtml"/>
+		<itemref idref="chapter-2-2.xhtml"/>
+		<itemref idref="chapter-2-3.xhtml"/>
+		<itemref idref="chapter-2-4.xhtml"/>
+		<itemref idref="chapter-2-5.xhtml"/>
+		<itemref idref="chapter-2-6.xhtml"/>
+		<itemref idref="chapter-2-7.xhtml"/>
+		<itemref idref="chapter-2-8.xhtml"/>
+		<itemref idref="chapter-2-9.xhtml"/>
+		<itemref idref="chapter-2-10.xhtml"/>
+		<itemref idref="chapter-2-11.xhtml"/>
+		<itemref idref="chapter-2-12.xhtml"/>
+		<itemref idref="chapter-2-13.xhtml"/>
+		<itemref idref="chapter-2-14.xhtml"/>
+		<itemref idref="chapter-2-15.xhtml"/>
+		<itemref idref="chapter-2-16.xhtml"/>
+		<itemref idref="chapter-2-17.xhtml"/>
+		<itemref idref="chapter-2-18.xhtml"/>
+		<itemref idref="chapter-2-19.xhtml"/>
+		<itemref idref="chapter-2-20.xhtml"/>
+		<itemref idref="chapter-2-21.xhtml"/>
+		<itemref idref="chapter-2-22.xhtml"/>
+		<itemref idref="chapter-2-23.xhtml"/>
+		<itemref idref="chapter-2-24.xhtml"/>
+		<itemref idref="chapter-2-25.xhtml"/>
+		<itemref idref="chapter-2-26.xhtml"/>
+		<itemref idref="chapter-2-27.xhtml"/>
+		<itemref idref="chapter-2-28.xhtml"/>
+		<itemref idref="chapter-2-29.xhtml"/>
+		<itemref idref="chapter-2-30.xhtml"/>
+		<itemref idref="chapter-2-31.xhtml"/>
+		<itemref idref="chapter-2-32.xhtml"/>
+		<itemref idref="chapter-2-33.xhtml"/>
+		<itemref idref="chapter-2-34.xhtml"/>
+		<itemref idref="chapter-2-35.xhtml"/>
+		<itemref idref="chapter-2-36.xhtml"/>
+		<itemref idref="chapter-2-37.xhtml"/>
+		<itemref idref="chapter-2-38.xhtml"/>
+		<itemref idref="chapter-2-39.xhtml"/>
+		<itemref idref="chapter-2-40.xhtml"/>
+		<itemref idref="chapter-2-41.xhtml"/>
+		<itemref idref="chapter-2-42.xhtml"/>
+		<itemref idref="chapter-2-43.xhtml"/>
+		<itemref idref="chapter-2-44.xhtml"/>
+		<itemref idref="chapter-2-45.xhtml"/>
+		<itemref idref="chapter-2-46.xhtml"/>
+		<itemref idref="chapter-2-47.xhtml"/>
+		<itemref idref="chapter-2-48.xhtml"/>
+		<itemref idref="chapter-2-49.xhtml"/>
+		<itemref idref="chapter-2-50.xhtml"/>
+		<itemref idref="chapter-2-51.xhtml"/>
+		<itemref idref="chapter-2-52.xhtml"/>
+		<itemref idref="chapter-2-53.xhtml"/>
+		<itemref idref="chapter-2-54.xhtml"/>
+		<itemref idref="chapter-2-55.xhtml"/>
+		<itemref idref="chapter-2-56.xhtml"/>
+		<itemref idref="chapter-2-57.xhtml"/>
+		<itemref idref="chapter-2-58.xhtml"/>
+		<itemref idref="chapter-2-59.xhtml"/>
+		<itemref idref="chapter-2-60.xhtml"/>
+		<itemref idref="chapter-2-61.xhtml"/>
+		<itemref idref="chapter-2-62.xhtml"/>
+		<itemref idref="chapter-2-63.xhtml"/>
+		<itemref idref="chapter-2-64.xhtml"/>
+		<itemref idref="chapter-2-65.xhtml"/>
+		<itemref idref="chapter-2-66.xhtml"/>
+		<itemref idref="chapter-2-67.xhtml"/>
+		<itemref idref="chapter-2-68.xhtml"/>
+		<itemref idref="chapter-2-69.xhtml"/>
+		<itemref idref="chapter-2-70.xhtml"/>
+		<itemref idref="chapter-2-71.xhtml"/>
+		<itemref idref="chapter-2-72.xhtml"/>
+		<itemref idref="chapter-2-73.xhtml"/>
+		<itemref idref="chapter-2-74.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="unlicense.xhtml"/>
 	</spine>
