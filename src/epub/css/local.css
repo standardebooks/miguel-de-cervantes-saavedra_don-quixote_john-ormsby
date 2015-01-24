@@ -5,6 +5,10 @@
 	font-variant: small-caps;
 }
 
+.small-caps{
+	font-variant: all-small-caps;
+}
+
 section[epub|type~="dedication"]{
 	margin: auto;
 	width: 75%;
