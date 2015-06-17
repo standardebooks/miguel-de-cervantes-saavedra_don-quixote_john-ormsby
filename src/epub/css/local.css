@@ -78,12 +78,18 @@ section[epub|type~="dedication"] header p{
 	margin: 1em 0;
 }
 
+section > header{
+	text-align: center;
+}
+
 p[epub|type~="bridgehead"]{
 	font-style: italic;
 	hyphens: none;
-	margin: 2em 0;
-	text-align: center;
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
 	text-indent: 0;
+	display: inline-block;
 }
 
 p[epub|type~="bridgehead"] i{
