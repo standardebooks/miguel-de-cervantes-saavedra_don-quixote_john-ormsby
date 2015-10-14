@@ -48,14 +48,14 @@ section[epub|type~="dedication"] header p{
 	display: none;
 }
 
-*[epub|type~="z3998:poem"] span.i1,
-*[epub|type~="z3998:verse"] span.i1{
-	text-indent: 0;
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
-*[epub|type~="z3998:poem"] span.i2,
-*[epub|type~="z3998:verse"] span.i2{
-	text-indent: 1em;
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
 }
 
 *[epub|type~="z3998:letter"] p:first-child{
