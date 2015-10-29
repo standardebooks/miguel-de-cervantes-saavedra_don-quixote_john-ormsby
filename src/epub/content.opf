@@ -35,7 +35,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://www.gutenberg.org/ebooks/996</dc:source>
-		<dc:source>https://archive.org/stream/ingeniousgentle03cerv</dc:source>
+		<dc:source>http://catalog.hathitrust.org/Record/008613336</dc:source>
 		<meta property="se:word-count">423617</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Don_Quixote</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/miguel-de-cervantes-saavedra_don-quixote_john-ormsby</meta>
