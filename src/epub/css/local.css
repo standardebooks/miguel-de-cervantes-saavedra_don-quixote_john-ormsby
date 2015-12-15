@@ -9,10 +9,6 @@ abbr.name{
 	font-variant: small-caps;
 }
 
-.small-caps{
-	font-variant: all-small-caps;
-}
-
 section[epub|type~="dedication"]{
 	margin: auto;
 	width: 75%;
@@ -24,27 +20,27 @@ section[epub|type~="dedication"] header p{
 	margin: 1em;
 }
 
-*[epub|type~="z3998:poem"] p,
-*[epub|type~="z3998:verse"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-*[epub|type~="z3998:poem"] p + p,
-*[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:poem"] p span,
-*[epub|type~="z3998:verse"] p span{
+[epub|type~="z3998:poem"] p span,
+[epub|type~="z3998:verse"] p span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-*[epub|type~="z3998:poem"] br,
-*[epub|type~="z3998:song"] br,
-*[epub|type~="z3998:verse"] br{
+[epub|type~="z3998:poem"] br,
+[epub|type~="z3998:song"] br,
+[epub|type~="z3998:verse"] br{
 	display: none;
 }
 
@@ -58,12 +54,12 @@ p span.i2{
 	padding-left: 3em;
 }
 
-*[epub|type~="z3998:letter"] p:first-child{
+[epub|type~="z3998:letter"] p:first-child{
 	text-indent: 0;
 }
 
-*[epub|type~="dedication"] footer,
-*[epub|type~="z3998:letter"] footer{
+[epub|type~="dedication"] footer,
+[epub|type~="z3998:letter"] footer{
 	text-align: right;
 	margin: 1em 0;
 }
@@ -72,7 +68,7 @@ section > header{
 	text-align: center;
 }
 
-p[epub|type~="bridgehead"]{
+[epub|type~="bridgehead"]{
 	font-style: italic;
 	hyphens: none;
 	margin: 3em;
@@ -82,7 +78,7 @@ p[epub|type~="bridgehead"]{
 	display: inline-block;
 }
 
-p[epub|type~="bridgehead"] i{
+[epub|type~="bridgehead"] i{
 	font-style: normal;
 }
 
@@ -91,9 +87,15 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+[epub|type~="z3998:poem"] > header > p{
+	text-align: center;
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
 /* helpful during drafting */
-*[epub|type~="z3998:roman"],
-*[lang]:not(html),
+[epub|type~="z3998:roman"],
+[lang]:not(html),
 abbr{
 	background: #C0C0C0;
 }
