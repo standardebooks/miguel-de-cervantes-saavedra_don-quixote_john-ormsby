@@ -93,6 +93,17 @@ span[epub|type~="subtitle"]{
 	margin-bottom: 1em;
 }
 
+blockquote.parchment{
+	margin: 3em 0;
+}
+
+blockquote header{
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 1em;
+}
+
 /* helpful during drafting */
 [epub|type~="z3998:roman"],
 [lang]:not(html),
