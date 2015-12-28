@@ -9,11 +9,6 @@ abbr.name{
 	font-variant: small-caps;
 }
 
-section[epub|type~="dedication"]{
-	margin: auto;
-	width: 75%;
-}
-
 section[epub|type~="dedication"] header p{
 	font-variant: small-caps;
 	text-indent: 0;
