@@ -69,13 +69,12 @@ section > header{
 }
 
 [epub|type~="bridgehead"]{
-	font-style: italic;
-	hyphens: none;
-	margin: 3em;
-	margin-top: 0;
-	text-align: left;
-	text-indent: 0;
 	display: inline-block;
+	font-style: italic;
+	margin: 0 auto 3em auto;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
 }
 
 [epub|type~="bridgehead"] i{
@@ -102,11 +101,4 @@ blockquote header{
 	text-align: center;
 	font-size: 1.2em;
 	margin: 1em;
-}
-
-/* helpful during drafting */
-[epub|type~="z3998:roman"],
-[lang]:not(html),
-abbr{
-	background: #C0C0C0;
 }
