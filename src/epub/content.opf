@@ -17,7 +17,11 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Don Quixote</dc:title>
-		<meta property="file-as" refines="#title">Quixote, Don</meta>
+		<meta property="file-as" refines="#title">Don Quixote</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="fulltitle">The Ingenious Gentleman Don Quixote of La Mancha</dc:title>
+		<meta property="file-as" refines="#fulltitle">Ingenious Gentleman Don Quixote of La Mancha, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Spain -- Social life and customs -- 16th century -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Knights and knighthood -- Spain -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Picaresque literature</dc:subject>
