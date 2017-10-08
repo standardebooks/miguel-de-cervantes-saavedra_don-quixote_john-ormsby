@@ -57,10 +57,6 @@ p span.i2{
 	padding-left: 3em;
 }
 
-[epub|type~="z3998:letter"] p:first-child{
-	text-indent: 0;
-}
-
 [epub|type~="dedication"] footer,
 [epub|type~="z3998:letter"] footer{
 	text-align: right;
