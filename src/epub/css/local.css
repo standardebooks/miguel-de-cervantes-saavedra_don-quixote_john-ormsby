@@ -97,8 +97,9 @@ p span.i2{
 	text-indent: 0;
 }
 
-* + [epub|type~="z3998:drama"]{
-	margin-top: 1em;
+[epub|type~="z3998:drama"] table{
+	margin: 1em auto;
+	width: 100%;
 }
 
 [epub|type~="z3998:persona"]{
