@@ -1,15 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
-abbr.name{
-	white-space: nowrap;
-}
-
 .signature{
 	font-variant: small-caps;
 }
@@ -112,14 +103,9 @@ p span.i2{
 	margin: 1em 0;
 }
 
-section > header{
-	text-align: center;
-}
-
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
-	margin: 0 auto 3em auto;
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
@@ -147,7 +133,6 @@ blockquote.parchment{
 
 blockquote header{
 	font-variant: small-caps;
-	text-align: center;
 	font-size: 1.2em;
-	margin: 1em;
+	margin-bottom: 1em;
 }
