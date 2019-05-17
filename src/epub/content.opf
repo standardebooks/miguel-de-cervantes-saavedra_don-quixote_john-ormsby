@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Don Quixote</dc:title>
 		<meta property="file-as" refines="#title">Don Quixote</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -37,13 +37,16 @@
 		<dc:subject id="subject-2">Knights and knighthood -- Spain -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Picaresque literature</dc:subject>
 		<dc:subject id="subject-4">Romances</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/996</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/996</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/996</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/996</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85101920</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh85114965</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A mad knight-errant and his down-to-earth squire encounter adventure in the Spanish countryside.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Don Quixote&lt;/i&gt; is a novel that doesn’t need much introduction. Not only is widely considered the greatest Spanish literary work of all time, one of the greatest literary works in history, and a cornerstone of the Western literary canon, it’s also considered one of the first—if not &lt;em&gt;the&lt;/em&gt; first—modern novels.&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks edition is believed to be the first ebook edition of &lt;i&gt;Don Quixote&lt;/i&gt; to feature a full transcription of translator John Ormsby’s nearly 1,000 footnotes. Ormsby as an annotator deftly explains obscure passages, gives background on the life and times of 1600s Spain, references decisions from other contemporary translators, and doesn’t hold back from sharing his views on the genius—and flaws—of Cervante’s greatest work. Additionally this edition corrects hundreds of transcription and typography errors present in the source transcription.&lt;/p&gt;
@@ -51,7 +54,6 @@
 			&lt;p&gt;Today &lt;i&gt;Don Quixote&lt;/i&gt;’s two volumes are published as a single work, but their publication came ten years apart. Cervantes saw great success with the publication of his first volume, and appeared to have little desire to write a second volume until a different author wrote a spurious, inferior sequel. This kicked Cervantes into gear and he wrote volume two, a more serious and philosophical volume than the largely comic first volume.&lt;/p&gt;
 			&lt;p&gt;Despite being written in 1605 and translated in 1885, &lt;i&gt;Don Quixote&lt;/i&gt; contains a surprising amount of slapstick laughs—even for the modern reader—and narrative devices still seen in today’s fiction, including meta-narratives, frame narratives, and metafiction. Many scenes (like Quixote’s attack on the windmills) and characters (like Sancho Panza and Lothario) are so famous that they’re ingrained in our collective culture.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/996</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008613336</dc:source>
