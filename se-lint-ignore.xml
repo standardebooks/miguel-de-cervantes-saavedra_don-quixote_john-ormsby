@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="content.opf">
+		<ignore>
+			<code>m-044</code>
+			<reason>The ebook's complex ToC structure is frustrating print-toc's ability to print the landmarks.</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-019</code>
+			<reason>Matched text is not a complete clause.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
