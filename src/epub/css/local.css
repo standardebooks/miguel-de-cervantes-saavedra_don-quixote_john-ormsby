@@ -6,7 +6,7 @@
 }
 
 section[epub|type~="epigraph"] blockquote{
-	page-break-after: always;
+	break-after: page;
 }
 
 section[epub|type~="dedication"] header p{
@@ -80,6 +80,7 @@ p span.i2{
 
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
+	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
 }
