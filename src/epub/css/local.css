@@ -112,11 +112,6 @@ p span.i2{
 	font-style: normal;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 [epub|type~="z3998:poem"] > header > p,
 [epub|type~="z3998:drama"] > header > p{
 	text-align: center;
