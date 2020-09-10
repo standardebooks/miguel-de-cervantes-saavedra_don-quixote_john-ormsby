@@ -6,12 +6,6 @@
 			<reason>The quotation marks are curled correctly in this complex nested quotations.</reason>
 		</ignore>
 	</file>
-	<file path="content.opf">
-		<ignore>
-			<code>m-044</code>
-			<reason>The ebook's complex ToC structure is frustrating print-toc's ability to print the landmarks.</reason>
-		</ignore>
-	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
 			<code>t-019</code>
