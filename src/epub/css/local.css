@@ -53,8 +53,10 @@ p span.i2{
 	padding-left: 3em;
 }
 
-[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
@@ -83,11 +85,6 @@ p span.i2{
 	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
-}
-
-[epub|type~="z3998:drama"] table{
-	margin: 1em auto;
-	width: 100%;
 }
 
 [epub|type~="z3998:persona"]{
