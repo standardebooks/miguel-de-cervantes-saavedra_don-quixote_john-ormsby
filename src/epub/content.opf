@@ -47,6 +47,8 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh85114965</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A mad knight-errant and his down-to-earth squire encounter adventure in the Spanish countryside.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Don Quixote&lt;/i&gt; is a novel that doesn’t need much introduction. Not only is it widely considered the greatest Spanish literary work of all time, one of the greatest literary works in history, and a cornerstone of the Western literary canon, it’s also considered one of the first—if not &lt;em&gt;the&lt;/em&gt; first—modern novels.&lt;/p&gt;
