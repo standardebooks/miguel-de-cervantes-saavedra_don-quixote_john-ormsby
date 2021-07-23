@@ -11,5 +11,9 @@
 			<code>t-019</code>
 			<reason>Matched text is not a complete clause.</reason>
 		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Matched text is correctly titlecased.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
