@@ -16,8 +16,8 @@ section[epub|type~="epigraph"] blockquote{
 
 section[epub|type~="dedication"] header p{
 	font-variant: small-caps;
-	text-indent: 0;
 	margin: 1em;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -73,8 +73,8 @@ p span.i2{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -98,8 +98,8 @@ p span.i2{
 
 [epub|type~="dedication"] footer,
 [epub|type~="z3998:letter"] footer{
-	text-align: right;
 	margin: 1em 0;
+	text-align: right;
 }
 
 [epub|type~="bridgehead"]{
@@ -116,9 +116,9 @@ p span.i2{
 
 [epub|type~="z3998:poem"] > header > p,
 [epub|type~="z3998:drama"] > header > p{
-	text-align: center;
 	font-variant: small-caps;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 blockquote.parchment{
@@ -126,7 +126,7 @@ blockquote.parchment{
 }
 
 blockquote header{
-	font-variant: small-caps;
 	font-size: 1.2em;
+	font-variant: small-caps;
 	margin-bottom: 1em;
 }
