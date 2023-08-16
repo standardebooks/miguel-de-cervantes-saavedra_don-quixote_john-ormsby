@@ -2,7 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-1-8.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-019</code>
 			<reason>The quotation marks are curled correctly in this complex nested quotations.</reason>
 		</ignore>
 	</file>
