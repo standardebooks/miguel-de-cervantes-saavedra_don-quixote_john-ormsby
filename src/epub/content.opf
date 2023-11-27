@@ -59,7 +59,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/996</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008613336</dc:source>
 		<meta property="se:production-notes">Added accents to Spanish words, names, and places not present in the source text; removed redunant headers for some sonnets and poems.</meta>
-		<meta property="se:word-count">426869</meta>
+		<meta property="se:word-count">426870</meta>
 		<meta property="se:reading-ease.flesch">45.16</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Don_Quixote</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/miguel-de-cervantes-saavedra_don-quixote_john-ormsby</meta>
