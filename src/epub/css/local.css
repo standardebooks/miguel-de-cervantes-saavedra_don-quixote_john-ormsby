@@ -126,7 +126,7 @@ blockquote.parchment{
 }
 
 blockquote header{
-	font-size: 1.2em;
+	font-size: larger;
 	font-variant: small-caps;
 	margin-bottom: 1em;
 }
