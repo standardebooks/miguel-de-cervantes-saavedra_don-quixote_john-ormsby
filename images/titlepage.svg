@@ -28,8 +28,8 @@
 		}
 	</style>
 	<text class="title" x="700" y="130">DON QUIXOTE</text>
-	<text class="author" x="700" y="290">MIGUEL</text>
-	<text class="author" x="700" y="370">DE CERVANTES SAAVEDRA</text>
+	<text class="author" x="700" y="290">MIGUEL DE</text>
+	<text class="author" x="700" y="370">CERVANTES SAAVEDRA</text>
 	<text class="contributor-descriptor" x="700" y="560">translated by</text>
 	<text class="contributor" x="700" y="620">JOHN ORMSBY</text>
 </svg>
