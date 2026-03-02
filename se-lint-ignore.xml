@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-1-8.xhtml">
-		<ignore>
-			<code>y-019</code>
+		<ignore code="y-019">
 			<reason>The quotation marks are curled correctly in this complex nested quotations.</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
-		<ignore>
-			<code>t-019</code>
+		<ignore code="t-019">
 			<reason>Matched text is not a complete clause.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Matched text is correctly titlecased.</reason>
 		</ignore>
 	</file>
