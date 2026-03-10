@@ -2,14 +2,17 @@
 <se-lint-ignore>
 	<file path="chapter-1-8.xhtml">
 		<ignore code="y-019">
+			<line>44</line>
 			<reason>The quotation marks are curled correctly in this complex nested quotations.</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
 		<ignore code="t-019">
+			<line>1707</line>
 			<reason>Matched text is not a complete clause.</reason>
 		</ignore>
 		<ignore code="t-064">
+			<line>107</line>
 			<reason>Matched text is correctly titlecased.</reason>
 		</ignore>
 	</file>
