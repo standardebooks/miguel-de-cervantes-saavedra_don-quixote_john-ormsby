@@ -51,6 +51,9 @@
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Best Novels of All Time (2026)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">26</meta>
+		<meta id="collection-3" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
+		<meta property="collection-type" refines="#collection-3">set</meta>
+		<meta property="group-position" refines="#collection-3">1</meta>
 		<dc:description id="description">A mad knight-errant and his down-to-earth squire encounter adventure in the Spanish countryside.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Don Quixote&lt;/i&gt; is a novel that doesn’t need much introduction. Not only is it widely considered the greatest Spanish literary work of all time, one of the greatest literary works in history, and a cornerstone of the Western literary canon, it’s also considered one of the first—if not &lt;em&gt;the&lt;/em&gt; first—modern novels.&lt;/p&gt;
