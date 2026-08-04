@@ -55,7 +55,7 @@
 		<meta id="collection-3" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
 		<meta property="group-position" refines="#collection-3">1</meta>
-		<dc:abstract>A mad knight-errant and his down-to-earth squire encounter adventure in the Spanish countryside.</dc:abstract>
+		<meta property="schema:abstract">A mad knight-errant and his down-to-earth squire encounter adventure in the Spanish countryside.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Don Quixote&lt;/i&gt; is a novel that doesn’t need much introduction. Not only is it widely considered the greatest Spanish literary work of all time, one of the greatest literary works in history, and a cornerstone of the Western literary canon, it’s also considered one of the first—if not &lt;em&gt;the&lt;/em&gt; first—modern novels.&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks edition is believed to be the first ebook edition of &lt;i&gt;Don Quixote&lt;/i&gt; to feature a full transcription of translator John Ormsby’s nearly 1,000 footnotes. Ormsby as an annotator deftly explains obscure passages, gives background on the life and times of 1600s Spain, references decisions from other contemporary translators, and doesn’t hold back from sharing his views on the genius—and flaws—of &lt;a href="https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra"&gt;Cervantes’&lt;/a&gt; greatest work.&lt;/p&gt;
