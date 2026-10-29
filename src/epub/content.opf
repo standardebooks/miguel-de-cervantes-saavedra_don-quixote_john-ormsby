@@ -88,13 +88,14 @@
 		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Honoré Daumier</dc:contributor>
 		<meta property="file-as" refines="#artist">Daumier, Honoré</meta>
-		<meta property="schema:alternateName" refines="#artist">Honoré Victorin Daumier</meta>
+		<meta property="schema:alternateName" refines="#artist">Honoré-Victorin Daumier</meta>
 		<link href="https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79089112.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
